@@ -33,7 +33,7 @@ CORS(api)
 # ---------- connect mongoDB atlas -----------
 # email: gankenny26@gmail.com, password: Babibodoh237
 print("connecting to Database, please wait for awhile...")
-DB_URI = "mongodb+srv://gankenny26:Babibodoh237@webprogramming-hw7.m22fu.mongodb.net/wp_final?retryWrites=true&w=majority"
+DB_URI = "" # connect your mongoDB here
 api.config["MONGODB_HOST"] = DB_URI
 db = MongoEngine(api)
 print(db)
