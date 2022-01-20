@@ -31,7 +31,6 @@ api = Flask(__name__)
 CORS(api)
 
 # ---------- connect mongoDB atlas -----------
-# email: gankenny26@gmail.com, password: Babibodoh237
 print("connecting to Database, please wait for awhile...")
 DB_URI = "" # connect your mongoDB here
 api.config["MONGODB_HOST"] = DB_URI
